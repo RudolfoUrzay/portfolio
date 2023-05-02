@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style1/style.css">
+
+<title>Hogwarts School</title>
+</head>
+<body>
+
+ <div id="banner">
+     <p id="wordsbanner"> Welcome to Hogwarts</p>
+ </div>
+
+<div class="menu">
+ <nav class="navMenu">
+    <a href="main.html">Home</a>
+    <a href="#">Browse</a>
+    <a href="about.html">About Us</a>
+    <a href="houses.html">Houses</a>
+    <a href="contact.html">Contact</a>
+    <div class="dot"></div>
+ </nav>
+</div>
+
+<form id="form_example">
+    <div id="form">
+        <p class="text">Please use the form below to Contact us:</p>
+        <label for="" class="text">Name: </label><input id="txtName" type="name" required><br>
+	    <label for="" class="text">Age: </label><input id="txtAge" type="number" required><br><br>
+        
+        <p class="text">Which package is your querry about?</p>
+        <div class="options">
+            <input type="radio" id="testone" name="test" value="first" required>
+            <label for="testone" class="text">Standard</label><br>
+            <input type="radio" id="testtwo" name="test" value="second" required>
+            <label for="testtwo" class="text">The Chosen Package</label>
+        </div>
+        <br><br>
+        <p class="text">We may responde via owl, on scale of 1-10, how scared are you of owls? (10 being the most scared)</p>
+        <input type="text" required>
+        <br><br>
+        <p class="text">Please enter your query:</p>
+        <input type="text" class="query" required>
+        <br><br><br>
+	    <button id="btnGetTicket">Click here</button>
+        <br><br>
+    </div>
+</form>
+
+
+<script src="js/contact.js"></script>
+
+</body>
+</html>
